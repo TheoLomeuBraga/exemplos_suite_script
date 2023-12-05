@@ -32,6 +32,12 @@ define(['N/log', 'N/record', 'N/currentRecord'], function (log, record, currentR
         var telefone = getValue("mobilephone")
         setValue("phone",telefone)
         setValue("officephone",telefone)
+
+        //exercicio 3
+        if(getField("allocationdepartment") == "T.I Sistemas"){
+            getField("diretor","Guilherme N Silva")
+            getField("supervisor","Henrique M Vetorazzi")
+        }
         
 
     }
