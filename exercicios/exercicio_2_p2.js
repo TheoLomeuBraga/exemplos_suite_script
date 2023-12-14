@@ -2,6 +2,10 @@
  * @NApiVersion 2.x
  * @NScriptType MapReduceScript
  */
+
+//id busca:
+//customsearch3563
+
 define(['N/log', 'N/search', 'N/record', 'N/runtime'], function(log, search, record, runtime) {
 
     function getInputData() {
